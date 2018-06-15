@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import "_inc/_normalize";
+
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+color: #40424b;
+padding: 1em;
+line-height: 1.5;
+font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #00aaff;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0.5em;
+	th {
+		font-weight: normal;
+		text-align: left;
+		color: #00aaff;
+		border-bottom: 2px solid #00aaff;
+		padding: 0.3em 1em;
+		span {
+			font-size: 0.6em;
+			color: #40424b;
+			margin-left: 1em;
+		}
+	}
+	td {
+		border-bottom: 1px dashed #40424b;
+		padding: 0.3em 1em;
+	}
+}
+dd {
+	margin: 0 0 2em;
+}
+
+
+
