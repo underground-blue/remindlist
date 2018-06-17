@@ -13,7 +13,7 @@ import _ from 'underscore';
 
 		// slack remind list
 		const api = axios.create();
-		const params = {token: 'xoxp-374647852820-374175151920-374353181761-9c413e798cb80119f0bdb88348cd9ce2'};
+		const params = {token: ''};
 
 		axios.all([
 			api.get('https://slack.com/api/reminders.list', {params}),
